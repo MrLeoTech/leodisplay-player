@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.LeoDisplay" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Splash theme — shown during cold start -->
+    <style name="Theme.LeoDisplay.Splash" parent="Theme.LeoDisplay">
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Fullscreen player theme -->
+    <style name="Theme.LeoDisplay.Fullscreen" parent="Theme.LeoDisplay">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

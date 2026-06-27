@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LeoDisplay</string>
+    <string name="splash_subtitle">Digital Signage Player</string>
+
+    <!-- Error Screen -->
+    <string name="error_title">Erro de Ligação</string>
+    <string name="error_no_connection">Sem ligação ao servidor</string>
+    <string name="error_auto_retry">A tentar reconectar automaticamente em %1$d segundos…</string>
+    <string name="btn_retry">Tentar novamente</string>
+</resources>

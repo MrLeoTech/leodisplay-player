@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local SDK
+local.properties
+
+# Logs
+*.log
+
+# Keystore
+*.jks
+*.keystore
+
+# Native builds
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# Sistema
+.DS_Store
+Thumbs.db

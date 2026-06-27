@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="blue_400">#60A5FA</color>
+    <color name="blue_500">#3B82F6</color>
+    <color name="blue_600">#2563EB</color>
+    <color name="blue_700">#1D4ED8</color>
+
+    <!-- Semantic -->
+    <color name="red_400">#F87171</color>
+    <color name="red_500">#EF4444</color>
+    <color name="green_400">#4ADE80</color>
+    <color name="yellow_400">#FACC15</color>
+
+    <!-- Neutral -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_900">#111827</color>
+    <color name="gray_800">#1F2937</color>
+    <color name="gray_700">#374151</color>
+    <color name="gray_600">#4B5563</color>
+    <color name="gray_500">#6B7280</color>
+    <color name="gray_400">#9CA3AF</color>
+    <color name="gray_300">#D1D5DB</color>
+
+    <!-- Theme -->
+    <color name="splash_background">#0F172A</color>
+    <color name="primary">@color/blue_500</color>
+    <color name="primary_dark">@color/blue_700</color>
+    <color name="accent">@color/blue_400</color>
+</resources>
