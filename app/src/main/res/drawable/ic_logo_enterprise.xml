@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Símbolo: Retângulo com Pixéis e Play -->
+    <path
+        android:pathData="M180,150 L380,150 A30,30 0 0 1 410,180 L410,300 A30,30 0 0 1 380,330 L180,330 A30,30 0 0 1 150,300 L150,180 A30,30 0 0 1 180,150"
+        android:strokeWidth="8"
+        android:strokeColor="#1E40AF" />
+
+    <path
+        android:pathData="M250,210 L320,240 L250,270 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="250"
+                android:startY="210"
+                android:endX="320"
+                android:endY="270"
+                android:type="linear">
+                <item android:color="#60A5FA" android:offset="0.0" />
+                <item android:color="#2563EB" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Pixéis decorativos à esquerda -->
+    <path android:fillColor="#60A5FA" android:pathData="M110,210 h15 v15 h-15z" />
+    <path android:fillColor="#3B82F6" android:pathData="M130,235 h20 v20 h-20z" />
+    <path android:fillColor="#2563EB" android:pathData="M105,260 h12 v12 h-12z" />
+    <path android:fillColor="#1D4ED8" android:pathData="M135,190 h10 v10 h-10z" />
+
+    <!-- Texto: LeoDisplay -->
+    <group android:translateX="80" android:translateY="380">
+        <!-- "Leo" em azul gradiente -->
+        <path android:pathData="M0,0 L10,0 L10,-40 L0,-40 Z" android:fillColor="#60A5FA" /> <!-- Placeholder para fonte -->
+        <!-- "Display" em branco -->
+        <path android:pathData="M100,0 L110,0 L110,-40 L100,-40 Z" android:fillColor="#FFFFFF" />
+    </group>
+
+    <!-- Subtexto: DIGITAL SIGNAGE -->
+    <path
+        android:fillColor="#9CA3AF"
+        android:pathData="M120,440 L390,440 M200,430 L312,430" />
+</vector>

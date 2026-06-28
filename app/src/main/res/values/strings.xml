@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LeoDisplay</string>
+    <string name="app_name">LeoDisplay Player</string>
     <string name="splash_subtitle">Digital Signage Player</string>
 
     <!-- Error Screen -->

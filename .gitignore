@@ -26,4 +26,17 @@ captures/
 
 # Sistema
 .DS_Store
-Thumbs.db
+Thumbs.db# APKs
+*.apk
+*.aab
+
+# Kotlin
+.kotlin/
+
+# Signing
+*.keystore
+*.jks
+key.properties
+
+# Crash logs
+hs_err_pid*
