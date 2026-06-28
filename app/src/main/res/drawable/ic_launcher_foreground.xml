@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp"
     android:height="108dp"
-    android:viewportWidth="108"
-    android:viewportHeight="108">
-    <group
-        android:translateX="14"
-        android:translateY="14"
-        android:scaleX="0.66"
-        android:scaleY="0.66">
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Novo Símbolo LeoDisplay (Enterprise) centrado para o ícone -->
+    <group android:translateX="25" android:translateY="25" android:scaleX="0.9" android:scaleY="0.9">
+        <!-- Retângulo do Símbolo -->
         <path
-            android:fillColor="#3B82F6"
-            android:pathData="M20,30 L100,30 L100,90 L20,90 Z M30,40 L30,80 L90,80 L90,40 Z" />
+            android:pathData="M150,150 L362,150 A30,30 0 0 1 392,180 L392,332 A30,30 0 0 1 362,362 L150,362 A30,30 0 0 1 120,332 L120,180 A30,30 0 0 1 150,150"
+            android:strokeWidth="15"
+            android:strokeColor="#2563EB" />
+
+        <!-- Triângulo Play -->
         <path
-            android:fillColor="#60A5FA"
-            android:pathData="M40,50 L80,50 L80,70 L40,70 Z" />
-        <path
-            android:fillColor="#2563EB"
-            android:pathData="M60,25m-8,0a8,8 0 1,1 16,0a8,8 0 1,1 -16,0" />
+            android:pathData="M230,210 L310,256 L230,302 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="230"
+                    android:startY="210"
+                    android:endX="310"
+                    android:endY="302"
+                    android:type="linear">
+                    <item android:color="#60A5FA" android:offset="0.0" />
+                    <item android:color="#2563EB" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Pixéis característicos -->
+        <path android:fillColor="#60A5FA" android:pathData="M80,220 h20 v20 h-20z" />
+        <path android:fillColor="#3B82F6" android:pathData="M105,250 h25 v25 h-25z" />
+        <path android:fillColor="#2563EB" android:pathData="M75,280 h15 v15 h-15z" />
+        <path android:fillColor="#1D4ED8" android:pathData="M110,200 h12 v12 h-12z" />
     </group>
 </vector>
